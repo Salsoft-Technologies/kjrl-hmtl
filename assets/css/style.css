@@ -1,0 +1,37 @@
+@import url('../fonts/aghto/stylesheet.css');
+@import url('../fonts/bell/stylesheet.css');
+
+
+
+.alghato {
+    font-family: 'Agatho';
+}
+
+nav {
+    font-family: 'Bell MT Std';
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Naskh Arabic', serif;
+    font-family: 'Outfit', sans-serif;
+}
+
+.banner-section {
+    background-image: linear-gradient(to right, #173C52 , #297098);;
+}
+
+.h100vh {
+    height: 100vh;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+}
+
+.head-1 {
+    font-size: 5vw;
+    line-height: 1;
+}

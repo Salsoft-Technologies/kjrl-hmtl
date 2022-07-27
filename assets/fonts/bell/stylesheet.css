@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Bell MT Std';
+    src: url('BellMTStd-SemiBold.eot');
+    src: url('BellMTStd-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('BellMTStd-SemiBold.woff2') format('woff2'),
+        url('BellMTStd-SemiBold.woff') format('woff'),
+        url('BellMTStd-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bell MT Std';
+    src: url('BellMTStd-Bold.eot');
+    src: url('BellMTStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('BellMTStd-Bold.woff2') format('woff2'),
+        url('BellMTStd-Bold.woff') format('woff'),
+        url('BellMTStd-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
