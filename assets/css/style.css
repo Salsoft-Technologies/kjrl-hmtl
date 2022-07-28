@@ -18,7 +18,9 @@ body {
 }
 
 .banner-section {
-    background-image: linear-gradient(to right, #173C52 , #297098);;
+    background-image: linear-gradient(to right, #173C52 , #297098);
+    margin: 10px;
+    border-radius: 25px;
 }
 
 .h100vh {
@@ -28,10 +30,115 @@ body {
 header {
     position: fixed;
     width: 100%;
-    background-color: #fff;
+    background-color: transparent;
 }
 
 .head-1 {
     font-size: 5vw;
     line-height: 1;
+}
+
+.mainMenu {
+    background-color: #fff;
+    position: relative;
+    margin: 0 20px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.mainMenu:before {
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 0;
+    width: 60px;
+    height: 100%;
+    background: #ffffff;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    transform: skew(30deg);
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 25px;
+}
+
+.mainMenu:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 60px;
+    right: -15px;
+    height: 100%;
+    background: #ffffff;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    transform: skew(-30deg);
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 25px;
+}
+
+.btn-theme-primary {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 12px 50px;
+    text-align: center;
+    color: #297098;
+    text-decoration: none;
+    font-family: 'Outfit';
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-theme-primary:after {
+    content: '';
+    width: 24%;
+    height: 80%;
+    position: absolute;
+    background-color: #8aee56;
+    border-radius: 50px;
+    left: -6px;
+    top: -3px;
+    border: 5px solid rgb(190 255 156);
+}
+
+.btn-theme-primary:hover {
+    background-color: transparent;
+    z-index: 9999;
+    text-decoration: none;
+    transition: .5s;
+    color: #fff;
+}
+.btn-theme-primary:hover:after {
+    width: 100%;
+    height: 100%;
+    background-color: #8aee56;
+    border-radius: 50px;
+    left: 0px;
+    top: 0px;
+    border: 5px solid transparent;
+    transition: .5s;
+    color: #fff;
+    z-index: -1;
+}
+
+.socialIcon {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.socialIcon a {
+    color: #fff;
+    font-size: 18px;
+}
+
+a.navbar-brand img {
+    width: 90px;
+}
+
+.gap-15 {
+    gap: 15px;
 }
