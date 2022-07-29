@@ -19,5 +19,5 @@
 </head>
 
 <body>
-    <div class="main-body">
+    <div class="main-body p-2">
         <?php include 'top-bar.php'; ?>
