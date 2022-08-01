@@ -26,6 +26,8 @@ body {
     background-image: linear-gradient(to right, #173c52 , #1c4963);
 }
 
+
+
 .h100vh {
     height: 100vh;
 }
@@ -195,4 +197,307 @@ a.navbar-brand img {
 
 .text-theme-secondary {
     color: #8AEE56;
+}
+
+.payrimid-box {
+    height: 379px;
+    display: flex;
+    justify-content: end;
+    -webkit-clip-path: polygon(0 0, 100% 0, 50% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 48% 100%, 0% 100%);
+    background-image: url(../images/rightImage.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.payrimid-box > div {
+    height: 266px;
+    width: 387px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-color: #fff;
+    -webkit-clip-path: polygon(100% 0, 0 0, 50% 100%);
+    clip-path: polygon(100% 0, 0 0, 50% 100%);
+    flex-wrap: wrap;
+}
+
+.pyrimidContent {
+    width: 250px;
+    text-align: center;
+    padding: 10px 0;
+}
+.shadows {
+    filter: drop-shadow(-6px 5px 9px rgba(50, 50, 0, 0.2));
+}
+
+.right-pyrimid {
+    -webkit-clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%) !important;
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%) !important;
+    background-size: cover;
+    align-items: end;
+    justify-content: start;
+}
+
+.right-pyrimid > div {
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(48% 0%, 0% 100%, 100% 100%);
+    align-items: end;
+}
+
+.left-props {
+    left: 90px;
+}
+
+.right-props {
+    right: 90px;
+}
+
+.pyrimidContent h3 {
+    padding: 0 44px;
+    font-size: 24px;
+}
+
+.wealth-plan, .business-banners {
+    padding: 80px 0;
+}
+
+.package-head {
+    text-align: center;
+    color: #fff;
+    padding: 25px 0;
+}
+
+.package-tag {
+    background-color: #ffffff36;
+    display: inline-block;
+    padding: 1px 25px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+
+
+.package-content {
+    height: 270px;
+    padding: 25px 0;
+}
+
+.package-content ul {
+    padding: 0px 20px;
+    list-style: none;
+}
+
+.package-content li:before {
+    content: "\f63b";
+    font-family: 'bootstrap-icons';
+    position: absolute;
+    left: -30px;
+}
+
+.package-content li {
+    font-size: 18px;
+    position: relative;
+    margin: 10px 45px;
+    color: #000000ad;
+    font-family: 'Outfit';
+}
+
+.package-footer {
+    padding: 30px 0;
+}
+
+.sbuscriber {
+    border: 2px solid #297098;
+    background: transparent;
+    padding: 10px  40px;
+    border-radius: 50px;
+    color: #297098;
+    font-weight: 500;
+}
+
+.packagePlan {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.ratingStars i {
+    color: #FFBB00;
+}
+
+.testimonial-content {
+    position: relative;
+    padding-right: 60px;
+}
+
+.testimonial-content:after {
+    content: '\F6B0';
+    font-family: 'bootstrap-icons';
+    font-size: 50px;
+    position: absolute;
+    top: -30px;
+    right: 0;
+    transform: rotate(180deg);
+    color: #aeaeae;
+}
+
+.appointment {
+    background: url(../images/top.png) top center no-repeat, url(../images/bottom.png) bottom center no-repeat;
+    background-size: contain, contain;
+    padding: 130px 0;
+}
+
+
+.form-input {
+    width: 100%;
+    padding: 10px 18px;
+    margin: 6px 0;
+    border-radius: 50px;
+    border: none;
+    background-color: #F3F3F3;
+}
+
+textarea.form-input {
+    border-radius: 5px;
+}
+
+.appoint-form {
+    position: absolute;
+    width: 100%;
+    top: -200px;
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 20px;
+    left: -40px;
+}
+
+.newsletter {
+    width: 100%;
+    border-bottom: 1px solid #000 !important;
+    outline: none;
+}
+
+.news-controls button {
+    position: absolute;
+    right: 0;
+    font-size: 26px;
+    top: 10px;
+}
+
+.social-link {
+    font-size: 20px;
+}
+
+.social-link a:after {
+    content: '';
+    border: 1px solid #000;
+    position: absolute;
+    height: 18px;
+    top: 7px;
+    transform: rotate(20deg);
+    left: -9px;
+    background-color: #000;
+}
+
+.social-link a {
+    position: relative;
+    padding: 0 10px;
+}
+
+.social-link a:first-child:after {
+    display: none;
+}
+
+.menu-footer {
+    padding: 0;
+    list-style: none;
+}
+
+.menu-footer li a {
+    color: #000;
+}
+
+.menu-footer li {
+    margin-bottom: 20px;
+}
+
+.copy-right {
+    background-color: #297098;
+    text-align: center;
+}
+
+footer {
+    padding-top: 40px;
+}
+
+.sbuscriber:hover {
+    background-color: #1b4660;
+    color: #fff;
+}
+
+
+/* login */
+
+.login-section {
+    background-image: url(../images/auth.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg-theme-primary {
+    background-color: #297098 !important;
+}
+
+.forgot-section {
+    background-image: url(../images/auth.png);
+    filter: blur(50px);
+    -webkit-filter: blur(50px);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blurText {
+    background-color: rgb(255 255 255);
+    color: #000;
+    font-weight: bold;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 35%;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.rcode {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+.payrimid-box-status {
+    background-color: #297098;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+
+.status {
+    display: inline-block;
+    background-color: #8aee56a6;
+    border-radius: 50px;
+    padding: 3px 18px;
+    margin-bottom: 5px;
+}
+.inprocess {
+    background-color: #ffe875c9;
+}
+
+.pending {
+    background-color: #f8b6a8a6;
 }

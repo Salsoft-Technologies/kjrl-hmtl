@@ -230,33 +230,266 @@
 <section class="our-services">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 text-center mb-4">
                 <h4 class="bar-head positive-relative h6 text-theme-primary"><i class="bi bi-dash-lg"></i> Our Service
                 </h4>
                 <h1 class="alghato head-2">Expert In The</h1>
             </div>
-            <div class="col-md-6">
-                <div class="payrimid-box shadow">
-                    <div class="payrimid-image">
-                        
-                    </div>
-                    <div class="payrimid-shape">
-                        <h3 class="alghato">Career Growth
-                            Pyramid</h3>
-                        <p>Lorem ipsum dolor sit amet, consetetur</p>
-                        <p class="mb-0"><a href="#" class="text-theme-primary">Explore More <i
-                                class="bi bi-arrow-right pl-2 text-theme-secondary"></i></a></p>
+            <div class="col-md-6 p-md-0 postition-relative left-props">
+                <div class="shadows">
+                    <div class="payrimid-box shadow">
+                        <div class="payrimid-shape">
+                            <div class="pyrimidContent">
+                                <h3 class="alghato font-weight-bold">Career Growth
+                                    Pyramid</h3>
+                                <p>Lorem ipsum dolor sit amet, consetetur</p>
+                                <p class="mb-0"><a href="#" class="text-theme-primary">Explore More <i
+                                            class="bi bi-arrow-right pl-2 text-theme-secondary"></i></a></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="col-md-6 p-md-0 postition-relative right-props">
+                <div class="shadows">
+                    <div class="payrimid-box right-pyrimid">
+                        <div class="payrimid-shape">
+                            <div class="payrimid-shape">
+                                <div class="pyrimidContent">
+                                    <h3 class="alghato font-weight-bold">Career Growth
+                                        Pyramid</h3>
+                                    <p>Lorem ipsum dolor sit amet, consetetur</p>
+                                    <p class="mb-0"><a href="#" class="text-theme-primary">Explore More <i
+                                                class="bi bi-arrow-right pl-2 text-theme-secondary"></i></a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- wealth plan  -->
+
+<section class="wealth-plan">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center mb-4">
+                <h4 class="bar-head positive-relative h6 text-theme-primary"><i class="bi bi-dash-lg"></i> Our Packages
+                </h4>
+                <h1 class="alghato head-2">Wealth Plans</h1>
+            </div>
+            <div class="col-md-4">
+                <div class="packagePlan shadow">
+                    <div class="package-head banner-section rounded-0">
+                        <div class="package-tag">
+                            <p class="mb-0">Basic</p>
+                        </div>
+                        <div class="price-tag">
+                            <h1 class="alghato head-1"><sup>$</sup> 19.95</h1>
+                            <p>1 Month Access</p>
+                        </div>
+                    </div>
+                    <div class="package-body">
+                        <div class="package-content">
+                            <ul>
+                                <li>
+                                    1-time payment for 30
+                                    days of access
+                                </li>
+                                <li>
+                                    Allows for the creation of
+                                    an initial Wealth Plan.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="package-footer text-center">
+                        <button class="sbuscriber">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="packagePlan shadow">
+                    <div class="package-head banner-section rounded-0">
+                        <div class="package-tag">
+                            <p class="mb-0">Premium</p>
+                        </div>
+                        <div class="price-tag">
+                            <h1 class="alghato head-1"><sup>$</sup> 50.00</h1>
+                            <p>Per Month</p>
+                        </div>
+                    </div>
+                    <div class="package-body">
+                        <div class="package-content">
+                            <ul>
+                                <li>
+                                    1-time payment for 30
+                                    days of access
+                                </li>
+                                <li>
+                                    Allows for the creation of
+                                    an initial Wealth Plan.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="package-footer text-center">
+                        <button class="sbuscriber">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="packagePlan shadow">
+                    <div class="package-head banner-section rounded-0">
+                        <div class="package-tag">
+                            <p class="mb-0">Gold</p>
+                        </div>
+                        <div class="price-tag">
+                            <h1 class="alghato head-1"><sup>$</sup> 45.00</h1>
+                            <p>Full Year Access</p>
+                        </div>
+                    </div>
+                    <div class="package-body">
+                        <div class="package-content">
+                            <ul>
+                                <li>
+                                    1-time payment for 30
+                                    days of access
+                                </li>
+                                <li>
+                                    Allows for the creation of
+                                    an initial Wealth Plan.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="package-footer text-center">
+                        <button class="sbuscriber">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- testimonials  -->
+
+<section class="wealth-plan testimonials">
+    <div class="container">
+        <div class="row mb-4 align-items-center">
+            <div class="col-md-6 text-left">
+                <h4 class="bar-head positive-relative h6 text-theme-primary"><i class="bi bi-dash-lg"></i> Testimonials
+                </h4>
+                <h1 class="alghato head-2">825 Client Love Us</h1>
+            </div>
             <div class="col-md-6">
-                <div class="payrimid-box shadow">
-                    <div class="payrimid-image">
-
+                <p class="mb-0">Lorem ipsum dolor sit amet, consetetur adipscing elitr, sed diam nonumy eirmod tempor.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="testimonial-box">
+                    <div class="author-box mb-3">
+                        <div class="d-flex gap-15 align-items-center">
+                            <div class="avatar">
+                                <figure class="mb-0">
+                                    <img src="../assets/images/test1.png" alt="Ruth Oday" class="mw-100">
+                                </figure>
+                            </div>
+                            <div class="authorInfo">
+                                <h5 class="mb-0">Ruth Oday</h5>
+                                <p class="mb-0">- CEO at GBL</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="payrimid-shape">
-
+                    <div class="ratingStars mb-3">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                        <span class="count text-secondary font-13">(4.0)</span>
                     </div>
+                    <div class="testimonial-content">
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="testimonial-box">
+                    <div class="author-box mb-3">
+                        <div class="d-flex gap-15 align-items-center">
+                            <div class="avatar">
+                                <figure class="mb-0">
+                                    <img src="../assets/images/test1.png" alt="Ruth Oday" class="mw-100">
+                                </figure>
+                            </div>
+                            <div class="authorInfo">
+                                <h5 class="mb-0">Ruth Oday</h5>
+                                <p class="mb-0">- CEO at GBL</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ratingStars mb-3">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                        <span class="count text-secondary font-13">(4.0)</span>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- appointment  -->
+
+<section class="appointment position-relative my-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="appoint-form shadow">
+                    <form action="">
+                        <div class="form-controls">
+                            <input type="text" name="company" placeholder="Enter Name/Company Name" class="form-input">
+                        </div>
+                        <div class="form-controls">
+                            <input type="email" name="email" placeholder="Enter Email Address" class="form-input">
+                        </div>
+                        <div class="form-controls">
+                            <select name="services" class="form-input">
+                                <option value="" disabled>Select Service</option>
+                                <option value="service1">Service 1</option>
+                                <option value="service2">Service 2</option>
+                            </select>
+                        </div>
+                        <div class="form-controls">
+                            <textarea name="message" id="" cols="30" rows="10" class="form-input"></textarea>
+                        </div>
+                        <div class="form-controls">
+                            <button type="submit" class="bg-gradient form-input text-white">Book Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="appointment-content">
+                    <h4 class="bar-head positive-relative h6 text-white"><i class="bi bi-dash-lg"></i> Testimonials
+                    </h4>
+                    <h1 class="alghato head-2 text-white">Book An Appointment Call Us Now</h1>
                 </div>
             </div>
         </div>
