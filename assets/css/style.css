@@ -49,6 +49,11 @@ header {
     line-height: 1;
 }
 
+.head-3 {
+    font-size: 3vw;
+    line-height: 1;
+}
+
 .mainMenu {
     background-color: #fff;
     position: relative;
@@ -197,6 +202,10 @@ a.navbar-brand img {
 
 .text-theme-secondary {
     color: #8AEE56;
+}
+
+.bg-theme-secondary {
+    background-color: #8AEE56;
 }
 
 .payrimid-box {
@@ -500,4 +509,80 @@ footer {
 
 .pending {
     background-color: #f8b6a8a6;
+}
+
+.pyrimid-section-shadow {
+    filter: blur(50px);
+    -webkit-filter: blur(120px);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(0 182 255 / 38%);
+}
+
+.pyramid__shape {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    -webkit-clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+
+.pyramid__steps {
+    flex: 1 1 100%;
+    background-color: #fff;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pyrimid-form {
+    background-color: #297098;
+    padding: 30px;
+    border-radius: 10px;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+}
+
+.action-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-btn > button {
+    flex-grow: 1;
+}
+
+.step-form input::placeholder {
+    color: #fff;
+}
+
+.step-bar {
+    width: 100%;
+    border: 1px solid #ffffff47;
+    height: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.activeBar {
+    background-color: #8aee56;
+    display: block;
+    height: 9px;
+    width: 0;
+}
+
+.step-form {
+    display: none;
+}
+
+.active {
+    display: block;
 }
