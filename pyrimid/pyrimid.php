@@ -50,7 +50,7 @@
                         <div class="step-count">
                             <p class="mb-0"><span class="active-steps"></span> / <span class="total-steps"></span></p>
                         </div>
-                        <div class="step-form active">
+                        <div class="step-form active" id="1">
                             <div class="step-content">
                                 <h1 class="alghato head-3">Step 1 Your Goal</h1>
                                 <p class="text-black font-weight-normal">Kindly Set your goal</p>
@@ -59,11 +59,11 @@
                                 <input type="text" placeholder="Set Your Goal"
                                     class="form-control rounded-pill border py-2 px-3 bg-transparent text-white"
                                     name="goal">
-                                <button class="bg-transparent border-0 text-white" id="addFeild"><i
+                                <button class="bg-transparent border-0 text-white addFeild"><i
                                         class="bi bi-plus-circle"></i></button>
                             </div>
                         </div>
-                        <div class="step-form">
+                        <div class="step-form" id="2">
                             <div class="step-content">
                                 <h1 class="alghato head-3">Step 1 Your Goal</h1>
                                 <p class="text-black font-weight-normal">Kindly Set your goal</p>
@@ -72,11 +72,11 @@
                                 <input type="text" placeholder="Set Your Goal"
                                     class="form-control rounded-pill border py-2 px-3 bg-transparent text-white"
                                     name="goal">
-                                <button class="bg-transparent border-0 text-white" id="addFeild"><i
+                                <button class="bg-transparent border-0 text-white addFeild"><i
                                         class="bi bi-plus-circle"></i></button>
                             </div>
                         </div>
-                        <div class="step-form">
+                        <div class="step-form" id="3">
                             <div class="step-content">
                                 <h1 class="alghato head-3">Step 1 Your Goal</h1>
                                 <p class="text-black font-weight-normal">Kindly Set your goal</p>
@@ -85,12 +85,12 @@
                                 <input type="text" placeholder="Set Your Goal"
                                     class="form-control rounded-pill border py-2 px-3 bg-transparent text-white"
                                     name="goal">
-                                <button class="bg-transparent border-0 text-white" id="addFeild"><i
+                                <button class="bg-transparent border-0 text-white addFeild"><i
                                         class="bi bi-plus-circle"></i></button>
                             </div>
                         </div>
                         <div class="action-btn gap-15">
-                            <button class="bg-light py-2 rounded-pill text-theme-primary border-0" onclick="procedBtn()">Proceed</button>
+                            <button class="bg-light py-2 rounded-pill text-theme-primary border-0" onclick="procedBtn(1)">Proceed</button>
                             <button class="bg-theme-primary py-2 rounded-pill text-light border">Cancel</button>
                         </div>
                     </div>

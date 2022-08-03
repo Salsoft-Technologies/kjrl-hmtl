@@ -21,10 +21,10 @@ jQuery('#addFeild').click(function(){
 })
 
 
-function activeTab () {
+function activeTab(steps) {
     const list = [...document.querySelectorAll('.step-form')];
     document.querySelector('.total-steps').innerText = list.length;
-    const widthFind = 100 / list.length;
+    let widthFind = (100 / list.length) * steps;
     document.querySelector('.activeBar').style.width = widthFind +'%';
     const active = document.querySelector('.step-form.active');
     const result =  list.indexOf(active) + 1;
@@ -36,13 +36,20 @@ function activeTab () {
 jQuery('#develop').click(function(){
     jQuery('.parimid-greets').hide();
     jQuery('.pyrimid-flow').show();
-    activeTab ();
+    activeTab(1);
 });
 
 function procedBtn() {
-    const active = document.querySelectorAll('.step-form.active');
-    active.forEach((item) => {
-        item.classList.remove('active');
-    });
-    active.indexOf(active) -1
+    let list = [...document.querySelectorAll('.step-form')];
+    const totalLength = list.length;
+    let active = document.querySelector('.step-form.active');
+    let steps = list.indexOf(active);
+    if(steps <= totalLength) {
+        active.classList.remove('active')
+        steps = ++steps;
+        console.log(steps);
+        active = list[steps];
+        active.classList.add('active');
+        activeTab(steps);
+    }
 }
