@@ -21,6 +21,7 @@ jQuery('#addFeild').click(function(){
 })
 
 
+
 function activeTab(steps) {
     const list = [...document.querySelectorAll('.step-form')];
     document.querySelector('.total-steps').innerText = list.length;
