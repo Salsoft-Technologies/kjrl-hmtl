@@ -65,7 +65,7 @@
                         </div>
                         <div class="step-form" id="2">
                             <div class="step-content">
-                                <h1 class="alghato head-3">Step 1 Your Goal</h1>
+                                <h1 class="alghato head-3">Step 2 Your Goal</h1>
                                 <p class="text-black font-weight-normal">Kindly Set your goal</p>
                             </div>
                             <div class="form-group d-flex">
@@ -78,7 +78,7 @@
                         </div>
                         <div class="step-form" id="3">
                             <div class="step-content">
-                                <h1 class="alghato head-3">Step 1 Your Goal</h1>
+                                <h1 class="alghato head-3">Step 3 Your Goal</h1>
                                 <p class="text-black font-weight-normal">Kindly Set your goal</p>
                             </div>
                             <div class="form-group d-flex">
@@ -90,7 +90,7 @@
                             </div>
                         </div>
                         <div class="action-btn gap-15">
-                            <button class="bg-light py-2 rounded-pill text-theme-primary border-0" onclick="procedBtn(1)">Proceed</button>
+                            <button class="bg-light py-2 rounded-pill text-theme-primary border-0 proceedButton">Proceed</button>
                             <button class="bg-theme-primary py-2 rounded-pill text-light border">Cancel</button>
                         </div>
                     </div>
