@@ -20,52 +20,6 @@ jQuery('#addFeild').click(function () {
 
 })
 
-
-<<<<<<< HEAD
-
-function activeTab(steps) {
-    const list = [...document.querySelectorAll('.step-form')];
-    document.querySelector('.total-steps').innerText = list.length;
-    let widthFind = (100 / list.length) * steps;
-    document.querySelector('.activeBar').style.width = widthFind +'%';
-    const active = document.querySelector('.step-form.active');
-    const result =  list.indexOf(active) + 1;
-    document.querySelector('.active-steps').innerText = result;
-=======
-// function activeTab(steps) {
-//     const list = [...document.querySelectorAll('.step-form')];
-//     document.querySelector('.total-steps').innerText = list.length;
-//     let widthFind = (100 / list.length) * steps;
-//     document.querySelector('.activeBar').style.width = widthFind +'%';
-//     const active = document.querySelector('.step-form.active');
-//     const result =  list.indexOf(active) + 1;
-//     document.querySelector('.active-steps').innerText = result;
-// }
-
-
-
-// jQuery('#develop').click(function(){
-//     jQuery('.parimid-greets').hide();
-//     jQuery('.pyrimid-flow').show();
-//     activeTab(1);
-// });
-
-// function procedBtn() {
-//     let list = [...document.querySelectorAll('.step-form')];
-//     const totalLength = list.length;
-//     let active = document.querySelector('.step-form.active');
-//     let steps = list.indexOf(active);
-//     if(steps <= totalLength) {
-//         active.classList.remove('active')
-//         steps = ++steps;
-//         console.log(steps);
-//         active = list[steps];
-//         active.classList.add('active');
-//         activeTab(steps);
-//     }
-// }
-
-
 const list = Array.from(document.querySelectorAll('.step-form'));
 const listLength = list.length;
 
@@ -84,9 +38,9 @@ function developFlow() {
 
     pyramidGreets.style.display = 'none';
     pyramidFlow.style.display = 'block';
+    document.querySelector('.submitButton').style.display = 'none';
 
     updatePyramid(step)
->>>>>>> f7ffc8b429e016f2789726c3f3a5a1d7aa0158ec
 }
 
 
@@ -99,31 +53,58 @@ if (typeof (proceedButton) != 'undefined') {
 }
 
 function proceedBtn() {
-    step = ++step;
     
-    if (step <= listLength) {
-        updatePyramid(step)
+    if (step < listLength && step >= 1) {
+        step = ++step;
+        updatePyramid(step);
+        console.log(step);
+        if(step >= listLength) {
+            document.querySelector('.submitButton').style.display = 'block';
+        }
     }
-// Else Call Function to Active First Step
-}
 
-
-/*---- Update Pyramid -----*/
-function updatePyramid(step) {
-    let activeStep = document.querySelector('.active-steps');
-    let totalStep = document.querySelector('.total-steps');
-    let activeBar = document.querySelector('.activeBar');
-    let barWidth = (100 / listLength) * step;
-
-    activeStep.innerText = step;
-    totalStep.innerText = listLength;
-    activeBar.style.width = `${barWidth}%`;
-
-    active = document.querySelector('.step-form.active');
-    active.classList.remove('active');
-    list[step - 1].classList.add('active');
+    // Else Call Function to Active First Step
 }
 
 
 
+/*---- Cancel Button -----*/
+let cancelButton = document.querySelector('.cancelButton');
+if (typeof (cancelButton) != 'undefined') {
+    cancelButton.addEventListener('click', function () {
+        cancelBtn();
+    })
+}
 
+function cancelBtn() {
+    
+    if (step <= listLength && step > 1 ) {
+        step = --step;
+        updatePyramid(step)
+        console.log(step);
+    } 
+
+}   
+
+
+
+    /*---- Update Pyramid -----*/
+    function updatePyramid(step) {
+        let activeStep = document.querySelector('.active-steps');
+        let totalStep = document.querySelector('.total-steps');
+        let activeBar = document.querySelector('.activeBar');
+        let barWidth = (100 / listLength) * step;
+
+        activeStep.innerText = step;
+        totalStep.innerText = listLength;
+        activeBar.style.width = `${barWidth}%`;
+
+        active = document.querySelector('.step-form.active');
+        active.classList.remove('active');
+        list[step - 1].classList.add('active');
+        if(step < listLength) {
+            document.querySelector('.submitButton').style.display = 'block';
+        } else {
+            document.querySelector('.submitButton').style.display = 'none';
+        }
+    } 

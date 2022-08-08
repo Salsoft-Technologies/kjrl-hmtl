@@ -577,6 +577,7 @@ footer {
     display: block;
     height: 9px;
     width: 0;
+    transition: .5s;
 }
 
 .step-form {

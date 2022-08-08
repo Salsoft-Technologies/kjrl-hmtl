@@ -89,9 +89,11 @@
                                         class="bi bi-plus-circle"></i></button>
                             </div>
                         </div>
+                        
                         <div class="action-btn gap-15">
                             <button class="bg-light py-2 rounded-pill text-theme-primary border-0 proceedButton">Proceed</button>
-                            <button class="bg-theme-primary py-2 rounded-pill text-light border">Cancel</button>
+                            <button type ="submit" class="bg-light py-2 rounded-pill text-theme-primary border-0 submitButton">Submit</button>
+                            <button class="bg-theme-primary py-2 rounded-pill text-light border cancelButton">Cancel</button>
                         </div>
                     </div>
                     <div class="save-info d-flex justify-content-center mt-5">
