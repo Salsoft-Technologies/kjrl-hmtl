@@ -522,11 +522,11 @@ footer {
 }
 
 .pyramid__shape {
-    width: 600px;
+    width: 650px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 500px;
+    height: 595px;
     -webkit-clip-path: polygon(50% 0, 100% 100%, 0 100%);
     clip-path: polygon(50% 0, 100% 100%, 0 100%);
 }
@@ -547,6 +547,7 @@ footer {
     color: #fff;
     width: 80%;
     margin: auto;
+    position: relative;
 }
 
 .action-btn {
@@ -568,7 +569,9 @@ footer {
     height: 10px;
     border-radius: 10px;
     margin-bottom: 15px;
-    position: relative;
+    position: absolute;
+    left: 0;
+    top: 0;
     overflow: hidden;
 }
 
@@ -587,3 +590,68 @@ footer {
 .active {
     display: block;
 }
+
+.activePyrimid {
+    background-color: #297098;
+    color: #fff;
+}
+
+.activePyrimid h3 {
+    font-size: 22px;
+}
+
+.activePyrimid p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.fourth-payrimid .develop {
+    padding: 9px 15px !important;
+    font-size: 13px;
+}
+
+.pyramid__shape > div:first-child {
+    font-size: 12px;
+    position: relative;
+    padding-top: 50px;
+}
+
+.complete-payrimid >  div > div:first-child {
+    padding-top: 80px;
+    padding-left: 15px;
+}
+
+.text-golden {
+    color: #8F8100;
+}
+
+.text-orange {
+    color: #FF8000;
+}
+
+.rounded-20 {
+    border-radius: 20px;
+}
+.theme-shape {
+    -webkit-clip-path: polygon(30% 9%, 70% 9%, 80% 0, 100% 0, 100% 90%, 33% 90%, 27% 100%, 0 100%, 0 0, 18% 0);
+    clip-path: polygon(30% 9%, 70% 9%, 80% 0, 100% 0, 100% 90%, 33% 90%, 27% 100%, 0 100%, 0 0, 18% 0);
+    height: 100vh;
+}
+
+.authBg {
+    background-image: url(../images/loginBg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* admin actor */
+
+.login-admin {
+    -webkit-clip-path: polygon(30% 9%, 70% 9%, 80% 0, 100% 0, 100% 90%, 33% 90%, 27% 100%, 0 100%, 0 0, 18% 0);
+    clip-path: polygon(30% 9%, 70% 9%, 80% 0, 100% 0, 100% 90%, 33% 90%, 27% 100%, 0 100%, 0 0, 18% 0);
+    background-image: url(../images/bgPearl.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fafafa;
+}
+

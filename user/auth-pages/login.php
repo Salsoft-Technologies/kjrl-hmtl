@@ -2,7 +2,7 @@
 
 <!-- home banner  -->
 
-<section class="login-section h100vh d-flex flex-column justify-content-center">
+<section class="theme-shape authBg d-flex flex-column justify-content-center">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-5 m-auto">

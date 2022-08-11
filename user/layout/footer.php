@@ -4,7 +4,7 @@
             <div class="col-md-5">
                 <div class="first-widget">
                     <div class="widget-content">
-                        <img src="../assets/images/logo.png" alt="" class="mb-3">
+                        <img src="../../assets/images/logo.png" alt="" class="mb-3">
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
                             invidunt ut labore et dolore magna aliquyam.</p>
                         <form action="">
@@ -79,7 +79,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
     integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous">
 </script>
-<script src="../assets/js/main.js"></script>
+<script src="../../assets/js/main.js"></script>
 </body>
 
 </html>

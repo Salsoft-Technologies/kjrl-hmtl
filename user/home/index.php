@@ -19,7 +19,7 @@
             </div>
             <div class="col-md-5">
                 <figure class="mb-0">
-                    <img src="../assets/images/man.png" alt="Banner Image" class="image-banner mw-100"
+                    <img src="../../assets/images/man.png" alt="Banner Image" class="image-banner mw-100"
                         draggable="false">
                 </figure>
             </div>
@@ -47,7 +47,7 @@
                         <div class="d-flex gap-15">
                             <div class="icon-shadow">
                                 <figure class="mb-0">
-                                    <img src="../assets/images/planning.png" alt="Planning" class="mw-100"
+                                    <img src="../../assets/images/planning.png" alt="Planning" class="mw-100"
                                         draggable="false">
                                 </figure>
                             </div>
@@ -63,7 +63,7 @@
                         <div class="d-flex gap-15">
                             <div class="icon-shadow">
                                 <figure class="mb-0">
-                                    <img src="../assets/images/partner.png" alt="Partner" class="mw-100"
+                                    <img src="../../assets/images/partner.png" alt="Partner" class="mw-100"
                                         draggable="false">
                                 </figure>
                             </div>
@@ -79,7 +79,7 @@
                         <div class="d-flex gap-15">
                             <div class="icon-shadow">
                                 <figure class="mb-0">
-                                    <img src="../assets/images/market.png" alt="Market Analysis & Research"
+                                    <img src="../../assets/images/market.png" alt="Market Analysis & Research"
                                         class="mw-100" draggable="false">
                                 </figure>
                             </div>
@@ -102,7 +102,7 @@
         <div class="row align-items-center pt-5">
             <div class="col-md-6">
                 <figure>
-                    <img src="../assets/images/financial.png" alt="Leading Financial Consulting Company" class="mw-100"
+                    <img src="../../assets/images/financial.png" alt="Leading Financial Consulting Company" class="mw-100"
                         draggable="false">
                 </figure>
             </div>
@@ -398,7 +398,7 @@
                         <div class="d-flex gap-15 align-items-center">
                             <div class="avatar">
                                 <figure class="mb-0">
-                                    <img src="../assets/images/test1.png" alt="Ruth Oday" class="mw-100">
+                                    <img src="../../assets/images/test1.png" alt="Ruth Oday" class="mw-100">
                                 </figure>
                             </div>
                             <div class="authorInfo">
@@ -428,7 +428,7 @@
                         <div class="d-flex gap-15 align-items-center">
                             <div class="avatar">
                                 <figure class="mb-0">
-                                    <img src="../assets/images/test1.png" alt="Ruth Oday" class="mw-100">
+                                    <img src="../../assets/images/test1.png" alt="Ruth Oday" class="mw-100">
                                 </figure>
                             </div>
                             <div class="authorInfo">

@@ -9,10 +9,23 @@ jQuery(window).scroll(function (event) {
     }
 });
 
+jQuery(document).ready(function() {
+    setTimeout(function() {
+        jQuery('.modalBtn button').trigger('click');
+    }, 3000)
 
-jQuery('#addFeild').click(function () {
+    // var getPath = window.location.pathname.split('/');
+    // if (getPath[3] = 'auth-pages') {
+    //     jQuery('.headerOption').hide();
+    //     jQuery('.authMenu').addClass('col-md-10');
+
+    // }
+})
+
+
+jQuery('.addFeild').click(function () {
     var cloneBox = jQuery(this).parents('.form-group').clone();
-    cloneBox.find('#addFeild').remove();
+    cloneBox.find('.addFeild').remove();
     var getLenght = jQuery('.active .form-group').length;
     if (getLenght < 3) {
         jQuery(this).parents('.step-form').append(cloneBox);
@@ -27,7 +40,7 @@ let active = document.querySelector('.step-form.active');
 let step = list.indexOf(active) + 1;
 
 
-const develop = document.getElementById('develop')
+const develop = document.querySelector('.develop')
 develop.addEventListener('click', developFlow)
 
 
@@ -38,7 +51,6 @@ function developFlow() {
 
     pyramidGreets.style.display = 'none';
     pyramidFlow.style.display = 'block';
-    document.querySelector('.submitButton').style.display = 'none';
 
     updatePyramid(step)
 }
@@ -58,10 +70,12 @@ function proceedBtn() {
         step = ++step;
         updatePyramid(step);
         console.log(step);
-        if(step >= listLength) {
-            document.querySelector('.submitButton').style.display = 'block';
-        }
     }
+
+    if(step == listLength) {
+        document.querySelector('.submitButton').style.display = 'block'
+        document.querySelector('.proceedButton').style.display = 'none'
+    } 
 
     // Else Call Function to Active First Step
 }
@@ -73,6 +87,7 @@ let cancelButton = document.querySelector('.cancelButton');
 if (typeof (cancelButton) != 'undefined') {
     cancelButton.addEventListener('click', function () {
         cancelBtn();
+        document.querySelector('.submitButton').style.display = 'none'
     })
 }
 
@@ -82,6 +97,7 @@ function cancelBtn() {
         step = --step;
         updatePyramid(step)
         console.log(step);
+        document.querySelector('.proceedButton').style.display = 'block'
     } 
 
 }   
@@ -102,9 +118,12 @@ function cancelBtn() {
         active = document.querySelector('.step-form.active');
         active.classList.remove('active');
         list[step - 1].classList.add('active');
-        if(step < listLength) {
-            document.querySelector('.submitButton').style.display = 'block';
-        } else {
-            document.querySelector('.submitButton').style.display = 'none';
-        }
+    } 
+
+
+    function submitAction() {
+        document.querySelector('.first-payrimid').style.display = 'none';
+        document.querySelector('.second-payrimid').style.display = 'block';
+        document.querySelector('.pyrimid-flow').style.display = 'none';
+        document.querySelector('.parimid-greets-congratulation').style.display = 'block';
     } 
