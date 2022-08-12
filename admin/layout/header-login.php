@@ -24,8 +24,8 @@
         <div class="row">
             <div class="col-md-2 shadow">
                 <?php include 'sidebar.php'; ?>
+            </div>
+            <div class="col-md-10">
                 <div class="top-bar">
                     <?php include 'top-bar.php'; ?>
                 </div>
-            </div>
-            <div class="col-md-10">

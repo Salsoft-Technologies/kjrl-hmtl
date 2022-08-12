@@ -1,4 +1,4 @@
-<header>
+<header class="user-header">
     <div class="container">
         <div class="row align-items-center headerColumn">
             <div class="col-md-2 headerOption">
