@@ -656,8 +656,8 @@ footer {
 }
 
 .avatar {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     border-radius: 80px;
     overflow: hidden;
 }
@@ -668,3 +668,136 @@ footer {
     object-fit: cover;
 }
 
+.authorInfo {
+    position: absolute;
+    top: 0;
+    right: -30px;
+}
+
+.authorInfo a::before {
+    transform: rotate(-90deg);
+}
+
+.top-position {
+    top: 25px !important;
+}
+
+.admin .nav-item img {
+    width: 20px;
+    margin-right: 5px;
+    position: relative;
+    top: -2px;
+}
+
+.admin .nav-item .active {
+    background-color: #297098;
+    color: #fff !important;
+    border-radius: 10px;
+}
+
+.admin .nav-item .active img {
+    filter: invert(1);
+}
+
+.rounded-bottom {
+    border-bottom-right-radius: 30px !important;
+}
+
+.bg-payrimid-admin {
+    background-image: url(../images/bgPearl.png);
+    background-size: 100%;
+    background-position: 80% 100%;
+    background-repeat: no-repeat;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.editPhoto {
+    border: 2px solid #fff;
+    background-color: #297098;
+    color: #fff;
+    border-radius: 50px;
+    padding: 2px 6px;
+    position: absolute;
+    bottom: 30px;
+    right: -6px;
+    z-index: 999;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.orderLogs table {
+    border-collapse: separate;
+    border-spacing: 0px 25px;
+}
+
+.orderLogs table tr {
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+}
+
+.orderLogs table thead tr th {
+    /* border-radius: 50px !important; */
+    padding: 15px 0;
+    text-transform: uppercase;
+}
+
+.orderLogs table thead tr th:first-child, .orderLogs table tbody tr th:first-child {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding-left: 25px;
+}
+
+.orderLogs table thead tr th:last-child, .orderLogs table tbody tr td:last-child {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding-right: 25px;
+}
+
+
+.orderLogs table tbody tr td, .orderLogs table tbody tr th {
+    padding: 15px 15px;
+}
+
+
+.orderLogs table tbody tr td, .orderLogs table tbody tr th {
+    padding: 15px 15px;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #297098;
+    border-color: #297098;
+}
+
+ul.pagination li:first-child a {
+    color: #fff;
+    background-color: #00A389;
+}
+
+ul.pagination li:last-child a {
+    color: #fff;
+    background-color: #263B86;
+}
+
+ul.pagination {
+    font-family: 'Outfit';
+}
+
+.tops {
+    top: 10px;
+}

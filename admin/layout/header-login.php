@@ -25,7 +25,7 @@
             <div class="col-md-2 shadow">
                 <?php include 'sidebar.php'; ?>
             </div>
-            <div class="col-md-10">
+            <div class="col-md-10 px-0 bg-payrimid-admin">
                 <div class="top-bar">
                     <?php include 'top-bar.php'; ?>
                 </div>
