@@ -14,7 +14,7 @@
                     <a class="nav-link active" href="../dashboard/"><img src="../../assets/images/dashboard.png" alt="" class="mw-100"> Pyramid</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"> <img src="../../assets/images/payrimid.png" alt="" class="mw-100"> Subscription</a>
+                    <a class="nav-link" href="../pyrimid/pyrimid-management.php"> <img src="../../assets/images/payrimid.png" alt="" class="mw-100"> Subscription</a>
                 </li>
             </ul>
         </div>
